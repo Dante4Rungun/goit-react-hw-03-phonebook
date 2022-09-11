@@ -1,0 +1,19 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.filter__search {
+    font-size: 18px;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-top: 15px;
+    outline: none;
+}
+
+.filter__search:hover {
+    border: 1px solid rgb(117, 188, 255)
+}

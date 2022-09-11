@@ -1,0 +1,19 @@
+.filterList {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+
+.filterList__item {
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.filterList__item +.filterList__item {
+    margin-top: 8px;
+}
+
+.filterList__item:hover {
+    color: rgb(0, 140, 255);
+}
